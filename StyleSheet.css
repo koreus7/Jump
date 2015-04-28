@@ -1,0 +1,16 @@
+﻿body {
+    background-color: #222;
+}
+
+#jsapp{
+   width: 100%;
+   text-align:center;
+   background-color: #808080;
+}
+
+canvas {
+    display: inline;
+    -moz-box-shadow: 10px 10px 2px #222;
+    -webkit-box-shadow: 10px 10px 2px #222;
+    box-shadow: 10px 10px 2px #222;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <title>Jump</title>
+    <meta charset ="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel = "stylesheet" type = "text/css" href = "StyleSheet.css" media = "screen" >
+ </head>
+    <body> 
+
+         <script type="text/javascript">
+             var $buoop = {}
+             $buoop.ol = window.onload;
+             window.onload = function () {
+                 try { if ($buoop.ol) $buoop.ol(); } catch (e) { }
+                 var e = document.createElement("script");
+                 e.setAttribute("type", "text/javascript");
+                 e.setAttribute("src", "http://browser-update.org/update.js");
+                 document.body.appendChild(e);
+             }
+         </script> 
+   
+        <div>
+            <div id="jsapp">
+		        <script type="text/javascript" src="lib/melonJS-0.9.6.js"></script>
+		        <script type="text/javascript" src="lib/tween/TweenLite.js"></script>
+		        <script type="text/javascript" src="lmutil.js"></script>
+		        <script type="text/javascript" src="entities.js"></script>
+		        <script type="text/javascript" src="hud.js"></script>
+		        <script type="text/javascript" src="levels.js"></script>
+		        <script type="text/javascript" src="mainmenu.js"></script>
+		        <script type="text/javascript" src="main.js"></script>
+            </div>
+        </div>
+   
+        <footer>
+	        <small>Copyright © 2012-2014 Leo Mahon</small>
+        </footer>
+    </body>
+</html>
