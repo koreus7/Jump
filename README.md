@@ -1,6 +1,7 @@
 # Jump
 
 ## How to run
+Currently the game only works in firefox.
 
 1. Install node
 2. Install http-server
