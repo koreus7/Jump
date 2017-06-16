@@ -11,4 +11,4 @@ npm install -g http-server
 ```
 http-server
 ```
-4. Navigate to the URL http-serer gives you.
+4. Navigate to the URL http-server gives you.
